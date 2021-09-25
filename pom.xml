@@ -22,14 +22,16 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-    
-     <!-- Sonar scanner plugin -->
+       
+       <!-- Sonar scanner plugin -->
         <dependency>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
             <version>3.2</version>
         </dependency>
+    </dependencies>
+    
+     
     
     <profiles>
         <profile>
